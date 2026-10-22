@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aniversário da Kathllyn · 07.11.2026</title>
+  <meta name="description" content="Aniversário da Kathllyn — churrasco no sábado, 07 de novembro de 2026, às 18h, na Rua Miguel Lopes, 36.">
+  <meta name="theme-color" content="#08090C">
+
+  <!-- Prévia ao compartilhar o link. Depois de publicar, troque por um endereço completo
+       (ex.: https://seu-site.netlify.app/fotos/foto-01.jpg) para a foto aparecer no WhatsApp. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kathllyn · 07.11.2026 · 18h">
+  <meta property="og:description" content="Você recebeu um convite. Toque para abrir.">
+  <meta property="og:image" content="fotos/foto-01.jpg">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2308090C'/%3E%3Ccircle cx='32' cy='33' r='24' fill='none' stroke='%23D8BC82' stroke-width='1.5'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='34' fill='%23E6D2A6'%3EK%3C/text%3E%3C/svg%3E">
+
+  <!-- Fontes hospedadas no próprio projeto (pasta fonts/): funcionam mesmo sem internet externa -->
+  <link rel="preload" href="fonts/Gloock-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/InstrumentSans-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" as="image" href="fotos/foto-01.jpg">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Monograma reutilizável (abertura e encerramento) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="ouro-traco" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#EEE0BF"/>
+        <stop offset=".45" stop-color="#D8BC82"/>
+        <stop offset="1" stop-color="#E6D2A6"/>
+      </linearGradient>
+      <linearGradient id="ouro-letra" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#F3EAD5"/>
+        <stop offset=".55" stop-color="#E2C994"/>
+        <stop offset="1" stop-color="#D8BC82"/>
+      </linearGradient>
+      <mask id="vazado-k" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="240">
+        <rect width="200" height="240" fill="#fff"/>
+        <path d="M30 168C20 158 30 140 50 144C78 150 92 168 122 178C150 187 170 186 180 176C186 170 182 162 175 164" fill="none" stroke="#000" stroke-width="5.5" stroke-linecap="round"/>
+      </mask>
+      <symbol id="monograma" viewBox="0 0 200 240">
+        <path d="M100 26v22" stroke="url(#ouro-traco)" stroke-width="1"/>
+        <path d="M100 2l2.6 8.4L111 13l-8.4 2.6L100 24l-2.6-8.4L89 13l8.4-2.6z" fill="#E6D2A6"/>
+        <circle cx="100" cy="140" r="88" fill="none" stroke="url(#ouro-traco)" stroke-width="1"/>
+        <text x="100" y="192" text-anchor="middle" font-family="Gloock, 'Bodoni 72', Didot, Georgia, serif" font-size="150" fill="url(#ouro-letra)" mask="url(#vazado-k)">K</text>
+        <path d="M30 168C20 158 30 140 50 144C78 150 92 168 122 178C150 187 170 186 180 176C186 170 182 162 175 164" fill="none" stroke="url(#ouro-traco)" stroke-width="1.5" stroke-linecap="round"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ===================== ABERTURA ===================== -->
+  <div class="abertura" id="abertura" role="dialog" aria-modal="true" aria-labelledby="abertura-titulo" tabindex="-1">
+    <div class="abertura__ceu" aria-hidden="true">
+      <div class="abertura__nebulosa"></div>
+      <div class="abertura__bruma abertura__bruma--esq"></div>
+      <div class="abertura__bruma abertura__bruma--dir"></div>
+      <div class="abertura__horizonte"></div>
+    </div>
+    <canvas class="abertura__estrelas" id="estrelas-abertura" aria-hidden="true"></canvas>
+    <svg class="abertura__halo" viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id="halo-grande" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#E6D2A6" stop-opacity=".9"/>
+          <stop offset=".35" stop-color="#D8BC82" stop-opacity=".15"/>
+          <stop offset=".65" stop-color="#D8BC82" stop-opacity=".1"/>
+          <stop offset="1" stop-color="#E6D2A6" stop-opacity=".75"/>
+        </linearGradient>
+      </defs>
+      <circle cx="500" cy="500" r="496" pathLength="1" fill="none" stroke="url(#halo-grande)" stroke-width="1.6"/>
+    </svg>
+
+    <div class="abertura__conteudo">
+      <svg class="monograma-k" viewBox="0 0 200 240" role="img" aria-label="Monograma K">
+        <path class="mk-pendente" d="M100 26v22" stroke="url(#ouro-traco)" stroke-width="1"/>
+        <path class="mk-estrela" d="M100 2l2.6 8.4L111 13l-8.4 2.6L100 24l-2.6-8.4L89 13l8.4-2.6z" fill="#E6D2A6"/>
+        <circle class="mk-halo" cx="100" cy="140" r="88" pathLength="1" fill="none" stroke="url(#ouro-traco)" stroke-width="1"/>
+        <text class="mk-letra" mask="url(#vazado-k)" x="100" y="192" text-anchor="middle" font-family="Gloock, 'Bodoni 72', Didot, Georgia, serif" font-size="150" fill="url(#ouro-letra)">K</text>
+        <path class="mk-arabesco" pathLength="1" d="M30 168C20 158 30 140 50 144C78 150 92 168 122 178C150 187 170 186 180 176C186 170 182 162 175 164" fill="none" stroke="url(#ouro-traco)" stroke-width="1.5" stroke-linecap="round"/>
+        <path class="mk-brilho" d="M163 120l1.4 4.2 4.2 1.4-4.2 1.4-1.4 4.2-1.4-4.2-4.2-1.4 4.2-1.4z" fill="#F1E6CC"/>
+      </svg>
+      <p class="abertura__chamada">Você recebeu um convite</p>
+      <h1 class="abertura__nome" id="abertura-titulo">Kathllyn</h1>
+      <div class="abertura__ornamento" aria-hidden="true"><span></span><svg viewBox="0 0 20 20"><path d="M10 0l1.8 8.2L20 10l-8.2 1.8L10 20l-1.8-8.2L0 10l8.2-1.8z"/></svg><span></span></div>
+      <p class="abertura__data"><span>07</span><i aria-hidden="true">•</i><span>11</span><i aria-hidden="true">•</i><span>2026</span></p>
+      <button class="botao-abrir" id="abrir-convite" type="button">
+        <span class="botao-abrir__texto">Abrir convite</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <main id="conteudo" tabindex="-1">
+
+    <!-- ===================== BANNER ===================== -->
+    <header class="banner" id="inicio">
+      <div class="banner__foto">
+        <img src="fotos/foto-01.jpg" alt="Kathllyn sorrindo, de blusa vermelha, diante de um painel de folhagens e orquídeas brancas" width="864" height="1536" fetchpriority="high">
+      </div>
+      <div class="banner__texto">
+        <h2 class="banner__titulo">
+          <span class="banner__pre"><i aria-hidden="true"></i>Aniversário da</span>
+          <span class="banner__nome">Kathllyn</span>
+        </h2>
+        <p class="banner__mensagem">
+          Mais um ano de histórias, risadas e bons motivos para celebrar.
+          <em>E eu quero comemorar essa nova fase ao lado de pessoas especiais — como você.</em>
+        </p>
+        <ul class="banner__fatos" aria-label="Resumo do evento">
+          <li><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>Sáb, 07 de novembro</li>
+          <li><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>18h</li>
+          <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s7-6.4 7-11.7A7 7 0 0 0 5 9.3C5 14.6 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg><span data-endereco-rua>Rua Miguel Lopes, 36</span></li>
+        </ul>
+        <div class="banner__acoes">
+          <a class="botao botao--ouro" href="#festa">Ver detalhes</a>
+          <a class="botao botao--contorno" href="#confirmar">Confirmar presença</a>
+        </div>
+      </div>
+      <a class="banner__seta" href="#momentos" aria-label="Continuar para o convite">
+        <span>Role</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+      </a>
+    </header>
+
+    <!-- ===================== GALERIA (carrossel) ===================== -->
+    <section class="secao momentos" id="momentos" aria-labelledby="momentos-titulo">
+      <div class="cabecalho revelar">
+        <p class="rotulo">Alguns momentos</p>
+        <h2 class="titulo" id="momentos-titulo">Um pouco da <em>aniversariante</em></h2>
+      </div>
+
+      <div class="carrossel revelar" id="carrossel" role="region" aria-roledescription="carrossel" aria-label="Fotos da Kathllyn">
+        <ul class="carrossel__trilha" id="carrossel-trilha" data-inicio="2">
+          <li class="carrossel__slide" role="group" aria-roledescription="slide" aria-label="1 de 5">
+            <button type="button" class="carrossel__foto" style="--pos: 50% 30%" aria-label="Ampliar foto 1">
+              <img src="fotos/foto-07.jpg" alt="Selfie de Kathllyn com camisa azul-turquesa e sorriso leve" width="899" height="1599" loading="lazy" decoding="async">
+            </button>
+          </li>
+          <li class="carrossel__slide" role="group" aria-roledescription="slide" aria-label="2 de 5">
+            <button type="button" class="carrossel__foto" style="--pos: 50% 55%" aria-label="Ampliar foto 2">
+              <img src="fotos/foto-04.jpg" alt="Kathllyn sorrindo entre grandes cubos grafitados com corações coloridos" width="590" height="782" loading="lazy" decoding="async">
+            </button>
+          </li>
+          <li class="carrossel__slide" role="group" aria-roledescription="slide" aria-label="3 de 5">
+            <button type="button" class="carrossel__foto" style="--pos: 38% 30%" aria-label="Ampliar foto 3">
+              <img src="fotos/foto-02.jpg" alt="Kathllyn olhando para trás com um sorriso, entre prédios espelhados e um varal de luzes ao entardecer" width="1200" height="1600" loading="lazy" decoding="async">
+            </button>
+          </li>
+          <li class="carrossel__slide" role="group" aria-roledescription="slide" aria-label="4 de 5">
+            <button type="button" class="carrossel__foto" style="--pos: 50% 26%" aria-label="Ampliar foto 4">
+              <img src="fotos/foto-05.jpg" alt="Retrato de Kathllyn com camisa listrada caramelo e colar de pérolas" width="899" height="1599" loading="lazy" decoding="async">
+            </button>
+          </li>
+          <li class="carrossel__slide" role="group" aria-roledescription="slide" aria-label="5 de 5">
+            <button type="button" class="carrossel__foto" style="--pos: 62% 28%" aria-label="Ampliar foto 5">
+              <img src="fotos/foto-08.jpg" alt="Selfie de Kathllyn com blusa vermelha e blazer preto, batom vinho" width="899" height="1599" loading="lazy" decoding="async">
+            </button>
+          </li>
+        </ul>
+
+        <div class="carrossel__controles">
+          <button type="button" class="carrossel__seta" id="carrossel-ant" aria-label="Foto anterior">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+          </button>
+          <div class="carrossel__pontos" id="carrossel-pontos" role="group" aria-label="Escolher foto"></div>
+          <button type="button" class="carrossel__seta" id="carrossel-prox" aria-label="Próxima foto">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+          <button type="button" class="carrossel__pausa" id="carrossel-pausa" aria-pressed="false" hidden>
+            <svg class="icone-pausa" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></svg>
+            <svg class="icone-play" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 5.5v13l10-6.5z"/></svg>
+            <span class="sr-only" id="carrossel-pausa-rotulo">Pausar passagem automática</span>
+          </button>
+        </div>
+        <p class="sr-only" id="carrossel-status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- ===================== CHURRASCO + DETALHES ===================== -->
+    <section class="secao festa" id="festa" aria-labelledby="festa-titulo">
+      <div class="festa__fundo" id="festa-fundo" aria-hidden="true"></div>
+      <canvas class="particulas" id="particulas-brasa" aria-hidden="true"></canvas>
+
+      <div class="festa__grade">
+        <div class="festa__texto revelar">
+          <p class="rotulo rotulo--brasa">O programa</p>
+          <h2 class="festa__titulo" id="festa-titulo">Vai ter churrasco.<br><em>E dos bons.</em></h2>
+          <p class="festa__lead">Você traz a fome e as risadas. A gente cuida da brasa.</p>
+          <p class="festa__selo">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3c1 3.5 4.5 5 4.5 9.5A4.5 4.5 0 0 1 12 17a4.5 4.5 0 0 1-4.5-4.5c0-2 1-3.3 2-4.3.2 1.6 1 2.6 2 3 0-3 .5-5.7.5-8.2z"/><path d="M6 21h12"/></svg>
+            Dieta? Fica combinada para segunda&#8209;feira.
+          </p>
+        </div>
+
+        <div class="ingresso revelar" aria-label="Detalhes do evento">
+          <dl class="ingresso__dados">
+            <div class="ingresso__item">
+              <dt>Data</dt>
+              <dd><strong>07 de novembro</strong><span>sábado · 2026</span></dd>
+            </div>
+            <div class="ingresso__item">
+              <dt>Horário</dt>
+              <dd><strong>18h</strong><span>horário de Brasília</span></dd>
+            </div>
+            <div class="ingresso__item ingresso__item--local">
+              <dt>Endereço</dt>
+              <dd><strong data-endereco-rua>Rua Miguel Lopes, 36</strong><span data-endereco-complemento hidden></span></dd>
+            </div>
+          </dl>
+
+          <div class="ingresso__acoes">
+            <a class="botao botao--ouro" id="botao-mapa" href="#" target="_blank" rel="noopener">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s7-6.4 7-11.7A7 7 0 0 0 5 9.3C5 14.6 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+              Abrir no mapa
+            </a>
+            <div class="menu-calendario">
+              <button class="botao botao--contorno" id="botao-calendario" type="button" aria-expanded="false" aria-controls="opcoes-calendario">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4M12 13v4M10 15h4"/></svg>
+                Salvar na agenda
+              </button>
+              <div class="menu-calendario__opcoes" id="opcoes-calendario" hidden>
+                <a id="calendario-google" href="#" target="_blank" rel="noopener">Google Agenda</a>
+                <button type="button" id="calendario-ics">Apple, Outlook e outros (.ics)</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="contagem" id="contagem" role="timer" aria-labelledby="contagem-rotulo">
+            <p class="contagem__rotulo" id="contagem-rotulo">Faltam</p>
+            <div class="contagem__numeros">
+              <span><b data-unidade="dias">--</b> dias</span>
+              <span><b data-unidade="horas">--</b> h</span>
+              <span><b data-unidade="minutos">--</b> min</span>
+              <span><b data-unidade="segundos">--</b> s</span>
+            </div>
+            <p class="contagem__fim" id="contagem-frase" hidden></p>
+            <p class="sr-only" id="contagem-leitor" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONFIRMAÇÃO ===================== -->
+    <section class="secao rsvp" id="confirmar" aria-labelledby="rsvp-titulo">
+      <div class="rsvp__painel revelar">
+        <div class="rsvp__cabeca">
+          <p class="rotulo">Confirmação</p>
+          <h2 class="titulo" id="rsvp-titulo">Me avisa <em>se você vem</em></h2>
+          <p class="apoio">Leva um minuto: a mensagem abre pronta no WhatsApp.</p>
+        </div>
+
+        <form class="formulario" id="form-rsvp" novalidate>
+          <div class="campo">
+            <label for="rsvp-nome">Seu nome <span aria-hidden="true">*</span></label>
+            <input id="rsvp-nome" name="nome" type="text" autocomplete="name" required minlength="2" maxlength="60" aria-describedby="rsvp-nome-erro">
+            <p class="campo__erro" id="rsvp-nome-erro"></p>
+          </div>
+
+          <fieldset class="campo escolha">
+            <legend>Você vai? <span aria-hidden="true">*</span></legend>
+            <div class="escolha__opcoes">
+              <label class="escolha__opcao">
+                <input type="radio" name="presenca" value="sim" required checked>
+                <span>Sim, estarei lá</span>
+              </label>
+              <label class="escolha__opcao">
+                <input type="radio" name="presenca" value="nao">
+                <span>Não vou conseguir</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="campo" id="campo-pessoas">
+            <label for="rsvp-pessoas">Quantas pessoas, contando você?</label>
+            <div class="contador">
+              <button type="button" data-passo="-1" aria-label="Diminuir">−</button>
+              <input id="rsvp-pessoas" name="pessoas" type="number" inputmode="numeric" min="1" max="10" value="1" aria-describedby="rsvp-pessoas-erro">
+              <button type="button" data-passo="1" aria-label="Aumentar">+</button>
+            </div>
+            <p class="campo__erro" id="rsvp-pessoas-erro"></p>
+          </div>
+
+          <div class="campo">
+            <label for="rsvp-msg">Algum recado? <small>(opcional)</small></label>
+            <textarea id="rsvp-msg" name="mensagem" rows="3" maxlength="300" aria-describedby="rsvp-msg-cont"></textarea>
+            <p class="campo__contagem" id="rsvp-msg-cont" aria-live="polite">0/300</p>
+          </div>
+
+          <button class="botao botao--ouro botao--largo" type="submit">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.5L3.5 20.5l1.4-4.3A8.5 8.5 0 1 1 20.5 11.6z"/></svg>
+            Enviar pelo WhatsApp
+          </button>
+          <p class="estado" id="rsvp-estado" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== LIVRO DE RECADOS ===================== -->
+    <section class="secao recados" id="recados" aria-labelledby="recados-titulo">
+      <div class="cabecalho revelar">
+        <p class="rotulo">Livro de recados</p>
+        <h2 class="titulo" id="recados-titulo">Deixe uma mensagem<br><em>para a Kathllyn</em></h2>
+        <p class="cabecalho__apoio">Os recados ficam visíveis para ela e para os outros convidados.</p>
+      </div>
+
+      <div class="livro revelar">
+        <form class="livro__pagina livro__pagina--escrever formulario" id="form-recado" novalidate>
+          <h3 class="livro__titulo">Escrever</h3>
+          <div class="campo">
+            <label for="recado-nome">Seu nome <span aria-hidden="true">*</span></label>
+            <input id="recado-nome" name="nome" type="text" autocomplete="name" required minlength="2" maxlength="60" aria-describedby="recado-nome-erro">
+            <p class="campo__erro" id="recado-nome-erro"></p>
+          </div>
+          <div class="campo">
+            <label for="recado-msg">Mensagem <span aria-hidden="true">*</span></label>
+            <textarea id="recado-msg" name="mensagem" rows="6" required minlength="3" maxlength="500" aria-describedby="recado-msg-erro recado-msg-cont"></textarea>
+            <div class="campo__rodape">
+              <p class="campo__erro" id="recado-msg-erro"></p>
+              <p class="campo__contagem" id="recado-msg-cont" aria-live="polite">0/500</p>
+            </div>
+          </div>
+
+          <!-- Armadilha anti-robô: pessoas não veem este campo -->
+          <div class="armadilha" aria-hidden="true">
+            <label for="recado-site">Não preencha</label>
+            <input id="recado-site" name="site" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <button class="botao botao--escuro botao--largo" type="submit" id="recado-enviar">
+            <span class="botao__texto">Publicar recado</span>
+            <span class="girador" aria-hidden="true"></span>
+          </button>
+          <p class="estado" id="recado-estado" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="livro__pagina livro__pagina--ler">
+          <div class="mural__topo">
+            <h3 class="livro__titulo">Recados</h3>
+            <button type="button" class="botao-texto" id="recados-atualizar">Atualizar</button>
+          </div>
+          <p class="mural__aviso" id="mural-aviso" role="status" aria-live="polite"></p>
+          <ol class="mural__lista" id="mural-lista" aria-busy="false"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ENCERRAMENTO ===================== -->
+    <section class="secao final" id="final" aria-labelledby="final-titulo">
+      <canvas class="particulas" id="particulas-final" aria-hidden="true"></canvas>
+      <div class="final__conteudo revelar">
+        <svg class="monograma monograma--final" viewBox="0 0 200 240" aria-hidden="true"><use href="#monograma"/></svg>
+        <h2 class="final__titulo" id="final-titulo">Será um prazer celebrar esse momento com você.</h2>
+        <p class="final__frase">Aguardo você nesse dia especial!</p>
+        <p class="final__assinatura">Kathllyn</p>
+        <p class="final__data">07 · 11 · 2026 — 18h</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p><span data-endereco-rua>Rua Miguel Lopes, 36</span> · sábado, 07 de novembro, 18h</p>
+    <a href="#inicio" class="botao-texto botao-texto--claro">Voltar ao início</a>
+  </footer>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+    <button class="lightbox__fechar" type="button" id="lightbox-fechar" aria-label="Fechar foto">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--ant" type="button" id="lightbox-ant" aria-label="Foto anterior">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <figure class="lightbox__figura">
+      <img id="lightbox-img" src="data:," alt="">
+      <figcaption id="lightbox-legenda"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--prox" type="button" id="lightbox-prox" aria-label="Próxima foto">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+
+  <div class="aviso-flutuante" id="aviso-flutuante" role="status" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
